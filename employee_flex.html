@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Employee List Flexbox</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+
+        .employeescont {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .employee {
+            flex: 0 1 200px;
+            margin: 20px;
+            padding: 10px;
+            background-color: #ffb347;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .employee:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="employeescont">
+
+            <div class="employee">
+                <p>Sales Department</p>
+                <h2>John Doe, 30</h2>
+                <h5>john.doe@company.com</h5>
+            </div>
+
+            <div class="employee">
+                <p>Human Resources Department</p>
+                <h2>Jane Smith, 25</h2>
+                <h5>jane.smith@company.com</h5>
+            </div>
+
+            <div class="employee">
+                <p>IT Department</p>
+                <h2>Mark Johnson, 40</h2>
+                <h5>mark.johnson@company.com</h5>
+            </div>
+
+            <div class="employee">
+                <p>Marketing Department</p>
+                <h2>Lisa Wong, 28</h2>
+                <h5>lisa.wong@company.com</h5>
+            </div>
+
+            <div class="employee">
+                <p>Finance Department</p>
+                <h2>Paul McDonald, 28</h2>
+                <h5>paul.mcdonald@company.com</h5>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

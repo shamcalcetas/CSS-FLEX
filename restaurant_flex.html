@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Restaurant List Flexbox</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+
+        .restoscont {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .restaurant {
+            flex: 0 1 200px;
+            margin: 20px;
+            padding: 10px;
+            background-color: #f5e960;
+            color: black;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .restaurant:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 13px;
+        }
+
+        .location {
+            font-size: 13px;
+            margin: 30px;
+            padding: 5px;
+            border: 1px solid black;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="restoscont">
+
+            <div class="restaurant">
+                <p>Buffet Style</p>
+                <h2>Viking Luxury Buffet</h2>
+                <p class="location">Pasay City <br> est. 2011</p>
+                <h5>www.vikings.ph</h5>
+            </div>
+
+            <div class="restaurant">
+                <p>Fine Dining</p>
+                <h2>Antonio's Restaurant</h2>
+                <p class="location">Tagaytay <br> est. 2002</p>
+                <h5>www.antoniosrestaurant.ph</h5>
+            </div>
+
+            <div class="restaurant">
+                <p>Filipino Style</p>
+                <h2>Mesa Filipino Moderne</h2>
+                <p class="location">Makati City <br> est. 2009</p>
+                <h5>www.mesa.ph</h5>
+            </div>
+
+            <div class="restaurant">
+                <p>Filipino Style</p>
+                <h2>Manam Comfort Filipino</h2>
+                <p class="location">Quezon City <br> est. 2013</p>
+                <h5>www.manam.ph"</h5>
+            </div>
+
+            <div class="restaurant">
+                <p>Japanese Style</p>
+                <h2>Ramen Nagi"</h2>
+                <p class="location">Mandaluyong <br> est. 2013</p>
+                <h5>www.ramennagi.com.ph</h5>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Product List Flexbox</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+
+        .productscont {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product {
+            flex: 0 1 200px;
+            margin: 20px;
+            padding: 10px;
+            background-color: #52b2cf;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .product:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 13px;
+        }
+        
+        .price {
+            font-size: 20px;
+            margin: 30px;
+            padding: 5px;
+            background-color: white;
+            color: #52b2cf;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="productscont">
+
+            <div class="product">
+                <p>Electronics</p>
+                <h2>Laptop</h2>
+                <p class="price">$750.00</p>
+                <h5>supplier1@gmail.com</h5>
+            </div>
+
+            <div class="product">
+                <p>Furniture</p>
+                <h2>Desk Chair</h2>
+                <p class="price">$100.00</p>
+                <h5>supplier2@gmail.com</h5>
+            </div>
+
+            <div class="product">
+                <p>Electronics</p>
+                <h2>Smartwatch</h2>
+                <p class="price">$200.00</p>
+                <h5>supplier3@gmail.com</h5>
+            </div>
+
+            <div class="product">
+                <p>Stationary</p>
+                <h2>Notebook</h2>
+                <p class="price">$5.00</p>
+                <h5>supplier4@gmail.com</h5>
+            </div>
+
+            <div class="product">
+                <p>Apparel</p>
+                <h2>Rubber Shoes</h2>
+                <p class="price">$80.00</p>
+                <h5>supplier5@gmail.com</h5>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
